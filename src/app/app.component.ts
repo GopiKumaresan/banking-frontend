@@ -13,6 +13,7 @@ import { TransferMoneyComponent } from './transfer-money/transfer-money.componen
 import { LoginComponent } from './login/login.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RegisterComponent } from './register/register.component';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-root',
@@ -31,7 +32,7 @@ import { RegisterComponent } from './register/register.component';
     LoginComponent,
     RouterOutlet,
     NgbModule
-    ]
+      ]
 })
 export class AppComponent implements OnInit {
   title = 'banking-frontend';

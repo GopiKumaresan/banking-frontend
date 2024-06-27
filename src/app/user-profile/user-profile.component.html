@@ -13,7 +13,7 @@
                 <form id="userForm" name="userForm">
                     <div class="col-md-12 row-display form-group">
                         <div class="col-md-2">
-                            <label class="form-check-label">Name </label><span class="pull-right">:</span>
+                            <label htmlFor="name" class="form-check-label">Name </label><span class="pull-right">:</span>
                         </div>
                         <div class="col-md-10">
                             <input class="form-control" type="text" id="name" placeholder="Name"
@@ -22,7 +22,7 @@
                     </div>
                     <div class="col-md-12 row-display form-group">
                         <div class="col-md-2">
-                            <label class="form-check-label">Email </label><span class="pull-right">:</span>
+                            <label htmlFor="email" class="form-check-label">Email </label><span class="pull-right">:</span>
                         </div>
                         <div class="col-md-10">
                             <input class="form-control" type="email" id="email" placeholder="Email" [(ngModel)]="email" name="email">
@@ -30,7 +30,7 @@
                     </div>
                     <div class="col-md-12 row-display form-group">
                         <div class="col-md-2">
-                            <label class="form-check-label">Contact No. </label><span class="pull-right">:</span>
+                            <label htmlFor="contactNo" class="form-check-label">Contact No. </label><span class="pull-right">:</span>
                         </div>
                         <div class="col-md-10">
                             <input class="form-control bg-light" type="text" id="contactNo" placeholder="Contact No."
@@ -39,7 +39,7 @@
                     </div>
                     <div class="col-md-12 row-display form-group">
                         <div class="col-md-2">
-                            <label class="form-check-label">Date Of Birth </label><span class="pull-right">:</span>
+                            <label htmlFor="dob" class="form-check-label">Date Of Birth </label><span class="pull-right">:</span>
                         </div>
                         <div class="col-md-10">
                             <div class="input-group date">
@@ -56,7 +56,7 @@
                     </div>
                     <div class="col-md-12 row-display form-group">
                         <div class="col-md-2">
-                            <label class="form-check-label">Age </label><span class="pull-right">:</span>
+                            <label htmlFor="age" class="form-check-label">Age </label><span class="pull-right">:</span>
                         </div>
                         <div class="col-md-10">
                             <input class="form-control bg-light" type="text" id="age" disabled placeholder="Age" [value]="age">

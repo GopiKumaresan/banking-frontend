@@ -10,7 +10,7 @@
                             <p>Enter Your Login Details</p>
                         </div>
                         <form [formGroup]="loginForm" (ngSubmit)="login()">
-                            <label>Contact No.</label>
+                            <label htmlFor="contactNo">Contact No.</label>
                             <div class="input-group form-group-no-border">
                                 <div class="input-group-prepend">
                                   <span class="input-group-text">
@@ -21,7 +21,7 @@
                                        formControlName="contactNo">
                             </div>
 
-                            <label>PIN</label>
+                            <label htmlFor="pin">PIN</label>
                             <div class="input-group form-group-no-border">
                                 <div class="input-group-prepend">
                                   <span class="input-group-text">

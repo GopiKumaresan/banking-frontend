@@ -1,4 +1,4 @@
-<nav *ngIf="isLogin() || isRegister()" class="navbar navbar-expand-lg fixed-top navbar-transparent"
+<nav *ngIf="isLogin() || isRegister()" aria-label ="navbar navbar-expand-lg fixed-top navbar-transparent"
      color-on-scroll="500">
     <div class="container">
         <div class="navbar-transparent">
@@ -24,7 +24,7 @@
 
     </div>
 </nav>
-<nav *ngIf="!(isLogin() || isRegister())" class="navbar navbar-expand-lg nav-margin fixed-top ">
+<nav *ngIf="!(isLogin() || isRegister())" class="navbar navbar-expand-lg nav-margin fixed-top "  aria-label="Animals">
     <div class="container">
         <div class="navbar-default">
             <a class="navbar-brand" routerLink="/home">Banking System</a>

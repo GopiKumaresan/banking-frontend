@@ -1,11 +1,11 @@
-import { formatDate } from '@angular/common';
+import { CommonModule, formatDate } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ServiceService } from '../services/service.service';
 
 @Component({
   selector: 'app-transaction-history',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './transaction-history.component.html',
   styleUrl: './transaction-history.component.scss'
 })
